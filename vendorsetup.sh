@@ -29,7 +29,7 @@ export FOX_VERSION="R11.1"
 export FOX_ADVANCED_SECURITY="1"
 export OF_USE_TWRP_SAR_DETECT="1"
 export OF_DISABLE_MIUI_OTA_BY_DEFAULT="1"
-export OF_QUICK_BACKUP_LIST="/boot;/data;/system_image;"
+export OF_QUICK_BACKUP_LIST="/boot;/data;/system_image;/vendor_image;"
 
 # Common
 export TARGET_ARCH="arm64"
@@ -37,6 +37,7 @@ export ALLOW_MISSING_DEPENDENCIES=true
 export LC_ALL="C"
 export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY"
 export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM"
+export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/platform/13540000.dwmmc0/by-name/VENDOR"
 
 export FOX_ASH_IS_BASH="1"
 export FOX_REPLACE_BUSYBOX_PS="1"
